@@ -72,7 +72,7 @@
         </DimensionGrant>
         <DimensionGrant dimension="DimClient" access="all">
         </DimensionGrant>
-        <HierarchyGrant hierarchy="[DimEmp.Territoire]" topLevel="[DimEmp.Territoire].[Pays]" access="all">
+        <HierarchyGrant hierarchy="[DimEmp.Territoire]" topLevel="[DimEmp.Territoire].[Pays]" access="custom">
           <MemberGrant member="[DimEmp.Territoire].[Pays].[USA]" access="all">
           </MemberGrant>
         </HierarchyGrant>
