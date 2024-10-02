@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <Schema name="Commandes">
   <Cube name="Commandes" visible="true" cache="true" enabled="true">
     <Table name="faitscommandes" schema="dwh">
