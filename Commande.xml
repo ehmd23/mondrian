@@ -95,4 +95,18 @@
       </CubeGrant>
     </SchemaGrant>
   </Role>
+    <Role name="All">
+    <SchemaGrant access="all">
+      <CubeGrant cube="Commandes" access="all">
+        <DimensionGrant dimension="DimClient" access="all">
+        </DimensionGrant>
+        <DimensionGrant dimension="DimProduit" access="all">
+        </DimensionGrant>
+        <DimensionGrant dimension="DimDateReception" access="all">
+        </DimensionGrant>
+        <DimensionGrant dimension="DimEmp" access="all">
+        </DimensionGrant>
+      </CubeGrant>
+    </SchemaGrant>
+  </Role>
 </Schema>
